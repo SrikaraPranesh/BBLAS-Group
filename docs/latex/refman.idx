@@ -1,0 +1,153 @@
+\indexentry{Batched B\+L\+AS@{Batched B\+L\+AS}|hyperpage}{7}
+\indexentry{\+: Standard Batched matrix-\/matrix operations,@{\+: Standard Batched matrix-\/matrix operations,}|hyperpage}{8}
+\indexentry{gemm\+\_\+batch\+:  Batched general matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batch\+:  Batched general matrix multiply\+: C[i] = A[i]B[i] + C[i]}|hyperpage}{9}
+\indexentry{hemm\+\_\+batch\+: Batched hermitian matrix multiply@{hemm\+\_\+batch\+: Batched hermitian matrix multiply}|hyperpage}{10}
+\indexentry{hemm\+\_\+batch\+: Batched hermitian matrix multiply@{hemm\+\_\+batch\+: Batched hermitian matrix multiply}!blas\+\_\+chemm\+\_\+batch@{blas\+\_\+chemm\+\_\+batch}|hyperpage}{10}
+\indexentry{blas\+\_\+chemm\+\_\+batch@{blas\+\_\+chemm\+\_\+batch}!hemm\+\_\+batch\+: Batched hermitian matrix multiply@{hemm\+\_\+batch\+: Batched hermitian matrix multiply}|hyperpage}{10}
+\indexentry{hemm\+\_\+batch\+: Batched hermitian matrix multiply@{hemm\+\_\+batch\+: Batched hermitian matrix multiply}!blas\+\_\+zhemm\+\_\+batch@{blas\+\_\+zhemm\+\_\+batch}|hyperpage}{12}
+\indexentry{blas\+\_\+zhemm\+\_\+batch@{blas\+\_\+zhemm\+\_\+batch}!hemm\+\_\+batch\+: Batched hermitian matrix multiply@{hemm\+\_\+batch\+: Batched hermitian matrix multiply}|hyperpage}{12}
+\indexentry{herk\+\_\+batch\+:  Batched hermitian rank k update@{herk\+\_\+batch\+:  Batched hermitian rank k update}|hyperpage}{15}
+\indexentry{herk\+\_\+batch\+:  Batched hermitian rank k update@{herk\+\_\+batch\+:  Batched hermitian rank k update}!blas\+\_\+cherk\+\_\+batch@{blas\+\_\+cherk\+\_\+batch}|hyperpage}{15}
+\indexentry{blas\+\_\+cherk\+\_\+batch@{blas\+\_\+cherk\+\_\+batch}!herk\+\_\+batch\+:  Batched hermitian rank k update@{herk\+\_\+batch\+:  Batched hermitian rank k update}|hyperpage}{15}
+\indexentry{herk\+\_\+batch\+:  Batched hermitian rank k update@{herk\+\_\+batch\+:  Batched hermitian rank k update}!blas\+\_\+zherk\+\_\+batch@{blas\+\_\+zherk\+\_\+batch}|hyperpage}{17}
+\indexentry{blas\+\_\+zherk\+\_\+batch@{blas\+\_\+zherk\+\_\+batch}!herk\+\_\+batch\+:  Batched hermitian rank k update@{herk\+\_\+batch\+:  Batched hermitian rank k update}|hyperpage}{17}
+\indexentry{her2k\+\_\+batch\+: Batched hermitian rank 2k update@{her2k\+\_\+batch\+: Batched hermitian rank 2k update}|hyperpage}{20}
+\indexentry{her2k\+\_\+batch\+: Batched hermitian rank 2k update@{her2k\+\_\+batch\+: Batched hermitian rank 2k update}!blas\+\_\+cher2k\+\_\+batch@{blas\+\_\+cher2k\+\_\+batch}|hyperpage}{20}
+\indexentry{blas\+\_\+cher2k\+\_\+batch@{blas\+\_\+cher2k\+\_\+batch}!her2k\+\_\+batch\+: Batched hermitian rank 2k update@{her2k\+\_\+batch\+: Batched hermitian rank 2k update}|hyperpage}{20}
+\indexentry{her2k\+\_\+batch\+: Batched hermitian rank 2k update@{her2k\+\_\+batch\+: Batched hermitian rank 2k update}!blas\+\_\+zher2k\+\_\+batch@{blas\+\_\+zher2k\+\_\+batch}|hyperpage}{22}
+\indexentry{blas\+\_\+zher2k\+\_\+batch@{blas\+\_\+zher2k\+\_\+batch}!her2k\+\_\+batch\+: Batched hermitian rank 2k update@{her2k\+\_\+batch\+: Batched hermitian rank 2k update}|hyperpage}{22}
+\indexentry{symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}|hyperpage}{25}
+\indexentry{symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}!blas\+\_\+csymm\+\_\+batch@{blas\+\_\+csymm\+\_\+batch}|hyperpage}{25}
+\indexentry{blas\+\_\+csymm\+\_\+batch@{blas\+\_\+csymm\+\_\+batch}!symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}|hyperpage}{25}
+\indexentry{symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}!blas\+\_\+dsymm\+\_\+batch@{blas\+\_\+dsymm\+\_\+batch}|hyperpage}{27}
+\indexentry{blas\+\_\+dsymm\+\_\+batch@{blas\+\_\+dsymm\+\_\+batch}!symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}|hyperpage}{27}
+\indexentry{symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}!blas\+\_\+ssymm\+\_\+batch@{blas\+\_\+ssymm\+\_\+batch}|hyperpage}{29}
+\indexentry{blas\+\_\+ssymm\+\_\+batch@{blas\+\_\+ssymm\+\_\+batch}!symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}|hyperpage}{29}
+\indexentry{symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}!blas\+\_\+zsymm\+\_\+batch@{blas\+\_\+zsymm\+\_\+batch}|hyperpage}{31}
+\indexentry{blas\+\_\+zsymm\+\_\+batch@{blas\+\_\+zsymm\+\_\+batch}!symm\+\_\+batch\+:  Batched symmetric matrix multiply@{symm\+\_\+batch\+:  Batched symmetric matrix multiply}|hyperpage}{31}
+\indexentry{syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}|hyperpage}{34}
+\indexentry{syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}!blas\+\_\+csyrk\+\_\+batch@{blas\+\_\+csyrk\+\_\+batch}|hyperpage}{34}
+\indexentry{blas\+\_\+csyrk\+\_\+batch@{blas\+\_\+csyrk\+\_\+batch}!syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}|hyperpage}{34}
+\indexentry{syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}!blas\+\_\+dsyrk\+\_\+batch@{blas\+\_\+dsyrk\+\_\+batch}|hyperpage}{36}
+\indexentry{blas\+\_\+dsyrk\+\_\+batch@{blas\+\_\+dsyrk\+\_\+batch}!syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}|hyperpage}{36}
+\indexentry{syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}!blas\+\_\+ssyrk\+\_\+batch@{blas\+\_\+ssyrk\+\_\+batch}|hyperpage}{38}
+\indexentry{blas\+\_\+ssyrk\+\_\+batch@{blas\+\_\+ssyrk\+\_\+batch}!syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}|hyperpage}{38}
+\indexentry{syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}!blas\+\_\+zsyrk\+\_\+batch@{blas\+\_\+zsyrk\+\_\+batch}|hyperpage}{40}
+\indexentry{blas\+\_\+zsyrk\+\_\+batch@{blas\+\_\+zsyrk\+\_\+batch}!syrk\+\_\+batch\+: Batched symmetric rank k update@{syrk\+\_\+batch\+: Batched symmetric rank k update}|hyperpage}{40}
+\indexentry{syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}|hyperpage}{43}
+\indexentry{syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}!blas\+\_\+csyr2k\+\_\+batch@{blas\+\_\+csyr2k\+\_\+batch}|hyperpage}{43}
+\indexentry{blas\+\_\+csyr2k\+\_\+batch@{blas\+\_\+csyr2k\+\_\+batch}!syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}|hyperpage}{43}
+\indexentry{syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}!blas\+\_\+dsyr2k\+\_\+batch@{blas\+\_\+dsyr2k\+\_\+batch}|hyperpage}{46}
+\indexentry{blas\+\_\+dsyr2k\+\_\+batch@{blas\+\_\+dsyr2k\+\_\+batch}!syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}|hyperpage}{46}
+\indexentry{syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}!blas\+\_\+ssyr2k\+\_\+batch@{blas\+\_\+ssyr2k\+\_\+batch}|hyperpage}{48}
+\indexentry{blas\+\_\+ssyr2k\+\_\+batch@{blas\+\_\+ssyr2k\+\_\+batch}!syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}|hyperpage}{48}
+\indexentry{syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}!blas\+\_\+zsyr2k\+\_\+batch@{blas\+\_\+zsyr2k\+\_\+batch}|hyperpage}{50}
+\indexentry{blas\+\_\+zsyr2k\+\_\+batch@{blas\+\_\+zsyr2k\+\_\+batch}!syr2k\+\_\+batch\+: Batched symmetric rank 2k update@{syr2k\+\_\+batch\+: Batched symmetric rank 2k update}|hyperpage}{50}
+\indexentry{trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}|hyperpage}{53}
+\indexentry{trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}!blas\+\_\+ctrmm\+\_\+batch@{blas\+\_\+ctrmm\+\_\+batch}|hyperpage}{53}
+\indexentry{blas\+\_\+ctrmm\+\_\+batch@{blas\+\_\+ctrmm\+\_\+batch}!trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}|hyperpage}{53}
+\indexentry{trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}!blas\+\_\+dtrmm\+\_\+batch@{blas\+\_\+dtrmm\+\_\+batch}|hyperpage}{55}
+\indexentry{blas\+\_\+dtrmm\+\_\+batch@{blas\+\_\+dtrmm\+\_\+batch}!trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}|hyperpage}{55}
+\indexentry{trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}!blas\+\_\+strmm\+\_\+batch@{blas\+\_\+strmm\+\_\+batch}|hyperpage}{58}
+\indexentry{blas\+\_\+strmm\+\_\+batch@{blas\+\_\+strmm\+\_\+batch}!trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}|hyperpage}{58}
+\indexentry{trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}!blas\+\_\+ztrmm\+\_\+batch@{blas\+\_\+ztrmm\+\_\+batch}|hyperpage}{60}
+\indexentry{blas\+\_\+ztrmm\+\_\+batch@{blas\+\_\+ztrmm\+\_\+batch}!trmm\+\_\+batch\+: Batched triangular matrix multiply@{trmm\+\_\+batch\+: Batched triangular matrix multiply}|hyperpage}{60}
+\indexentry{trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}|hyperpage}{63}
+\indexentry{trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}!blas\+\_\+ctrsm\+\_\+batch@{blas\+\_\+ctrsm\+\_\+batch}|hyperpage}{63}
+\indexentry{blas\+\_\+ctrsm\+\_\+batch@{blas\+\_\+ctrsm\+\_\+batch}!trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}|hyperpage}{63}
+\indexentry{trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}!blas\+\_\+dtrsm\+\_\+batch@{blas\+\_\+dtrsm\+\_\+batch}|hyperpage}{65}
+\indexentry{blas\+\_\+dtrsm\+\_\+batch@{blas\+\_\+dtrsm\+\_\+batch}!trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}|hyperpage}{65}
+\indexentry{trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}!blas\+\_\+strsm\+\_\+batch@{blas\+\_\+strsm\+\_\+batch}|hyperpage}{68}
+\indexentry{blas\+\_\+strsm\+\_\+batch@{blas\+\_\+strsm\+\_\+batch}!trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}|hyperpage}{68}
+\indexentry{trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}!blas\+\_\+ztrsm\+\_\+batch@{blas\+\_\+ztrsm\+\_\+batch}|hyperpage}{70}
+\indexentry{blas\+\_\+ztrsm\+\_\+batch@{blas\+\_\+ztrsm\+\_\+batch}!trsm\+\_\+batch\+: Batched triangular solve matrix@{trsm\+\_\+batch\+: Batched triangular solve matrix}|hyperpage}{70}
+\indexentry{Fixed Batched B\+L\+A\+S A\+PI@{Fixed Batched B\+L\+A\+S A\+PI}|hyperpage}{73}
+\indexentry{\+: Fixed Batched matrix-\/matrix operations,@{\+: Fixed Batched matrix-\/matrix operations,}|hyperpage}{74}
+\indexentry{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}|hyperpage}{75}
+\indexentry{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}!blas\+\_\+cgemm\+\_\+batchf@{blas\+\_\+cgemm\+\_\+batchf}|hyperpage}{75}
+\indexentry{blas\+\_\+cgemm\+\_\+batchf@{blas\+\_\+cgemm\+\_\+batchf}!gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}|hyperpage}{75}
+\indexentry{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}!blas\+\_\+dgemm\+\_\+batchf@{blas\+\_\+dgemm\+\_\+batchf}|hyperpage}{77}
+\indexentry{blas\+\_\+dgemm\+\_\+batchf@{blas\+\_\+dgemm\+\_\+batchf}!gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}|hyperpage}{77}
+\indexentry{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}!blas\+\_\+sgemm\+\_\+batchf@{blas\+\_\+sgemm\+\_\+batchf}|hyperpage}{79}
+\indexentry{blas\+\_\+sgemm\+\_\+batchf@{blas\+\_\+sgemm\+\_\+batchf}!gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}|hyperpage}{79}
+\indexentry{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}!blas\+\_\+zgemm\+\_\+batchf@{blas\+\_\+zgemm\+\_\+batchf}|hyperpage}{81}
+\indexentry{blas\+\_\+zgemm\+\_\+batchf@{blas\+\_\+zgemm\+\_\+batchf}!gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C\mbox{[}i\mbox{]} = A\mbox{[}i\mbox{]}B\mbox{[}i\mbox{]} + C\mbox{[}i\mbox{]}@{gemm\+\_\+batchf\+:  Batch of same size general  matrix multiply\+: C[i] = A[i]B[i] + C[i]}|hyperpage}{81}
+\indexentry{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply@{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply}|hyperpage}{84}
+\indexentry{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply@{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply}!blas\+\_\+chemm\+\_\+batchf@{blas\+\_\+chemm\+\_\+batchf}|hyperpage}{84}
+\indexentry{blas\+\_\+chemm\+\_\+batchf@{blas\+\_\+chemm\+\_\+batchf}!hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply@{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply}|hyperpage}{84}
+\indexentry{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply@{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply}!blas\+\_\+zhemm\+\_\+batchf@{blas\+\_\+zhemm\+\_\+batchf}|hyperpage}{86}
+\indexentry{blas\+\_\+zhemm\+\_\+batchf@{blas\+\_\+zhemm\+\_\+batchf}!hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply@{hemm\+\_\+batchf\+: Batch of same size hermitian matrix multiply}|hyperpage}{86}
+\indexentry{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update@{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update}|hyperpage}{88}
+\indexentry{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update@{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update}!blas\+\_\+cherk\+\_\+batchf@{blas\+\_\+cherk\+\_\+batchf}|hyperpage}{88}
+\indexentry{blas\+\_\+cherk\+\_\+batchf@{blas\+\_\+cherk\+\_\+batchf}!herk\+\_\+batchf\+:  Batch of same size hermitian rank k update@{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update}|hyperpage}{88}
+\indexentry{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update@{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update}!blas\+\_\+zherk\+\_\+batchf@{blas\+\_\+zherk\+\_\+batchf}|hyperpage}{90}
+\indexentry{blas\+\_\+zherk\+\_\+batchf@{blas\+\_\+zherk\+\_\+batchf}!herk\+\_\+batchf\+:  Batch of same size hermitian rank k update@{herk\+\_\+batchf\+:  Batch of same size hermitian rank k update}|hyperpage}{90}
+\indexentry{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update@{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update}|hyperpage}{92}
+\indexentry{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update@{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update}!blas\+\_\+cher2k\+\_\+batchf@{blas\+\_\+cher2k\+\_\+batchf}|hyperpage}{92}
+\indexentry{blas\+\_\+cher2k\+\_\+batchf@{blas\+\_\+cher2k\+\_\+batchf}!her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update@{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update}|hyperpage}{92}
+\indexentry{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update@{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update}!blas\+\_\+zher2k\+\_\+batchf@{blas\+\_\+zher2k\+\_\+batchf}|hyperpage}{94}
+\indexentry{blas\+\_\+zher2k\+\_\+batchf@{blas\+\_\+zher2k\+\_\+batchf}!her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update@{her2k\+\_\+batchf\+: Batch of same size hermitian rank 2k update}|hyperpage}{94}
+\indexentry{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}|hyperpage}{96}
+\indexentry{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}!blas\+\_\+csymm\+\_\+batchf@{blas\+\_\+csymm\+\_\+batchf}|hyperpage}{96}
+\indexentry{blas\+\_\+csymm\+\_\+batchf@{blas\+\_\+csymm\+\_\+batchf}!symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}|hyperpage}{96}
+\indexentry{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}!blas\+\_\+dsymm\+\_\+batchf@{blas\+\_\+dsymm\+\_\+batchf}|hyperpage}{98}
+\indexentry{blas\+\_\+dsymm\+\_\+batchf@{blas\+\_\+dsymm\+\_\+batchf}!symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}|hyperpage}{98}
+\indexentry{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}!blas\+\_\+ssymm\+\_\+batchf@{blas\+\_\+ssymm\+\_\+batchf}|hyperpage}{100}
+\indexentry{blas\+\_\+ssymm\+\_\+batchf@{blas\+\_\+ssymm\+\_\+batchf}!symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}|hyperpage}{100}
+\indexentry{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}!blas\+\_\+zsymm\+\_\+batchf@{blas\+\_\+zsymm\+\_\+batchf}|hyperpage}{101}
+\indexentry{blas\+\_\+zsymm\+\_\+batchf@{blas\+\_\+zsymm\+\_\+batchf}!symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply@{symm\+\_\+batchf\+:  Batch of same size symmetric matrix multiply}|hyperpage}{101}
+\indexentry{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}|hyperpage}{104}
+\indexentry{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}!blas\+\_\+csyrk\+\_\+batchf@{blas\+\_\+csyrk\+\_\+batchf}|hyperpage}{104}
+\indexentry{blas\+\_\+csyrk\+\_\+batchf@{blas\+\_\+csyrk\+\_\+batchf}!syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}|hyperpage}{104}
+\indexentry{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}!blas\+\_\+dsyrk\+\_\+batchf@{blas\+\_\+dsyrk\+\_\+batchf}|hyperpage}{106}
+\indexentry{blas\+\_\+dsyrk\+\_\+batchf@{blas\+\_\+dsyrk\+\_\+batchf}!syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}|hyperpage}{106}
+\indexentry{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}!blas\+\_\+ssyrk\+\_\+batchf@{blas\+\_\+ssyrk\+\_\+batchf}|hyperpage}{107}
+\indexentry{blas\+\_\+ssyrk\+\_\+batchf@{blas\+\_\+ssyrk\+\_\+batchf}!syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}|hyperpage}{107}
+\indexentry{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}!blas\+\_\+zsyrk\+\_\+batchf@{blas\+\_\+zsyrk\+\_\+batchf}|hyperpage}{109}
+\indexentry{blas\+\_\+zsyrk\+\_\+batchf@{blas\+\_\+zsyrk\+\_\+batchf}!syrk\+\_\+batchf\+: Batch of same size symmetric rank k update@{syrk\+\_\+batchf\+: Batch of same size symmetric rank k update}|hyperpage}{109}
+\indexentry{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}|hyperpage}{112}
+\indexentry{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}!blas\+\_\+csyr2k\+\_\+batchf@{blas\+\_\+csyr2k\+\_\+batchf}|hyperpage}{112}
+\indexentry{blas\+\_\+csyr2k\+\_\+batchf@{blas\+\_\+csyr2k\+\_\+batchf}!syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}|hyperpage}{112}
+\indexentry{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}!blas\+\_\+dsyr2k\+\_\+batchf@{blas\+\_\+dsyr2k\+\_\+batchf}|hyperpage}{114}
+\indexentry{blas\+\_\+dsyr2k\+\_\+batchf@{blas\+\_\+dsyr2k\+\_\+batchf}!syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}|hyperpage}{114}
+\indexentry{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}!blas\+\_\+ssyr2k\+\_\+batchf@{blas\+\_\+ssyr2k\+\_\+batchf}|hyperpage}{115}
+\indexentry{blas\+\_\+ssyr2k\+\_\+batchf@{blas\+\_\+ssyr2k\+\_\+batchf}!syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}|hyperpage}{115}
+\indexentry{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}!blas\+\_\+zsyr2k\+\_\+batchf@{blas\+\_\+zsyr2k\+\_\+batchf}|hyperpage}{117}
+\indexentry{blas\+\_\+zsyr2k\+\_\+batchf@{blas\+\_\+zsyr2k\+\_\+batchf}!syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update@{syr2k\+\_\+batchf\+: Batch of same size symmetric rank 2k update}|hyperpage}{117}
+\indexentry{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}|hyperpage}{120}
+\indexentry{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}!blas\+\_\+ctrmm\+\_\+batchf@{blas\+\_\+ctrmm\+\_\+batchf}|hyperpage}{120}
+\indexentry{blas\+\_\+ctrmm\+\_\+batchf@{blas\+\_\+ctrmm\+\_\+batchf}!trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}|hyperpage}{120}
+\indexentry{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}!blas\+\_\+dtrmm\+\_\+batchf@{blas\+\_\+dtrmm\+\_\+batchf}|hyperpage}{122}
+\indexentry{blas\+\_\+dtrmm\+\_\+batchf@{blas\+\_\+dtrmm\+\_\+batchf}!trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}|hyperpage}{122}
+\indexentry{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}!blas\+\_\+strmm\+\_\+batchf@{blas\+\_\+strmm\+\_\+batchf}|hyperpage}{124}
+\indexentry{blas\+\_\+strmm\+\_\+batchf@{blas\+\_\+strmm\+\_\+batchf}!trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}|hyperpage}{124}
+\indexentry{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}!blas\+\_\+ztrmm\+\_\+batchf@{blas\+\_\+ztrmm\+\_\+batchf}|hyperpage}{126}
+\indexentry{blas\+\_\+ztrmm\+\_\+batchf@{blas\+\_\+ztrmm\+\_\+batchf}!trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply@{trmm\+\_\+batchf\+: Batch of same size triangular matrix multiply}|hyperpage}{126}
+\indexentry{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}|hyperpage}{129}
+\indexentry{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}!blas\+\_\+ctrsm\+\_\+batchf@{blas\+\_\+ctrsm\+\_\+batchf}|hyperpage}{129}
+\indexentry{blas\+\_\+ctrsm\+\_\+batchf@{blas\+\_\+ctrsm\+\_\+batchf}!trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}|hyperpage}{129}
+\indexentry{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}!blas\+\_\+dtrsm\+\_\+batchf@{blas\+\_\+dtrsm\+\_\+batchf}|hyperpage}{131}
+\indexentry{blas\+\_\+dtrsm\+\_\+batchf@{blas\+\_\+dtrsm\+\_\+batchf}!trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}|hyperpage}{131}
+\indexentry{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}!blas\+\_\+strsm\+\_\+batchf@{blas\+\_\+strsm\+\_\+batchf}|hyperpage}{133}
+\indexentry{blas\+\_\+strsm\+\_\+batchf@{blas\+\_\+strsm\+\_\+batchf}!trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}|hyperpage}{133}
+\indexentry{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}!blas\+\_\+ztrsm\+\_\+batchf@{blas\+\_\+ztrsm\+\_\+batchf}|hyperpage}{135}
+\indexentry{blas\+\_\+ztrsm\+\_\+batchf@{blas\+\_\+ztrsm\+\_\+batchf}!trsm\+\_\+batchf\+: Batch of same size triangular solve matrix@{trsm\+\_\+batchf\+: Batch of same size triangular solve matrix}|hyperpage}{135}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{138}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+diag\+\_\+const@{bblas\+\_\+diag\+\_\+const}|hyperpage}{138}
+\indexentry{bblas\+\_\+diag\+\_\+const@{bblas\+\_\+diag\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{138}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+info\+\_\+const@{bblas\+\_\+info\+\_\+const}|hyperpage}{138}
+\indexentry{bblas\+\_\+info\+\_\+const@{bblas\+\_\+info\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{138}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+direct\+\_\+const@{bblas\+\_\+direct\+\_\+const}|hyperpage}{139}
+\indexentry{bblas\+\_\+direct\+\_\+const@{bblas\+\_\+direct\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{139}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+norm\+\_\+const@{bblas\+\_\+norm\+\_\+const}|hyperpage}{139}
+\indexentry{bblas\+\_\+norm\+\_\+const@{bblas\+\_\+norm\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{139}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+side\+\_\+const@{bblas\+\_\+side\+\_\+const}|hyperpage}{139}
+\indexentry{bblas\+\_\+side\+\_\+const@{bblas\+\_\+side\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{139}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+storev\+\_\+const@{bblas\+\_\+storev\+\_\+const}|hyperpage}{139}
+\indexentry{bblas\+\_\+storev\+\_\+const@{bblas\+\_\+storev\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{139}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+trans\+\_\+const@{bblas\+\_\+trans\+\_\+const}|hyperpage}{140}
+\indexentry{bblas\+\_\+trans\+\_\+const@{bblas\+\_\+trans\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{140}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!bblas\+\_\+uplo\+\_\+const@{bblas\+\_\+uplo\+\_\+const}|hyperpage}{140}
+\indexentry{bblas\+\_\+uplo\+\_\+const@{bblas\+\_\+uplo\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{140}
+\indexentry{Bblas\+\_\+const@{Bblas\+\_\+const}!lapack\+\_\+const@{lapack\+\_\+const}|hyperpage}{140}
+\indexentry{lapack\+\_\+const@{lapack\+\_\+const}!Bblas\+\_\+const@{Bblas\+\_\+const}|hyperpage}{140}
